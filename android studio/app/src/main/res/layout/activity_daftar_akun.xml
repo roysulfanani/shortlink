@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#d5e2f0"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.example.android.shortlink.daftar_akun">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKKAN NAMA ANDA"
+        android:textColorHint="#3188eb"
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/txtnama"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKKAN EMAIL ANDA"
+        android:textColorHint="#3188eb"
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/txtemail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKKAN PASSWORD ANDA"
+        android:paddingTop="20dp"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColorHint="#3188eb"
+        android:paddingRight="15dp"
+        android:id="@+id/txtpass"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASUKKAN RE-PASSWORD ANDA"
+        android:paddingTop="20dp"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColorHint="#3188eb"
+        android:paddingRight="15dp"
+        android:id="@+id/txtrepass"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR"
+            android:background="#3323"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:id="@+id/btndaftar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3323"
+            android:text="kembali"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:id="@+id/btnkembali"/>
+    </LinearLayout>
+</LinearLayout>
